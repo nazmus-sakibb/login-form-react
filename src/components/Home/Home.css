@@ -1,0 +1,14 @@
+.header-container {
+    min-height:720px;
+    position:relative;
+}
+.header-container::after {
+    min-height:720px;
+    content:' ';
+    position: absolute;
+    top: 0;
+    width: 30%;
+    right: 0;
+    background-color: #ffffff;
+    z-index: -1;
+}
